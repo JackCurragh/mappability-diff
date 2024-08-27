@@ -29,7 +29,7 @@ Run genmap to create mappability tracks
 bash run_genmap.sh
 ```
 
-
+Then assuming you have downloaded an annotation file for your genome run: 
 ```
 python src/mappability_diff.py data/bigwig results --gtf annotation.gtf
 ```
