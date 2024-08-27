@@ -26,7 +26,7 @@ Move your fasta files to `data/fasta` before proceding
 
 Run genmap to create mappability tracks 
 ```
-
+bash run_genmap.sh
 ```
 
 

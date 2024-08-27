@@ -31,7 +31,7 @@ for fasta_file in $(find . -type f -name "data/fasta/*.fa"); do
         wig_base_name=$(basename "$wig_file" .wig)
         
         # Create the BigWig file name
-        bw_file="${dir}/${wig_base_name}.bw"
+        bw_file="data/bigwig/${wig_base_name}.bw"
         
         # Convert WIG to BigWig
         wigToBigWig "$wig_file" "$chrom_sizes_file" "$bw_file"
