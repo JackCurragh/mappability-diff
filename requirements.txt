@@ -1,4 +1,6 @@
 alabaster==1.0.0
+argcomplete==3.5.0
+argh==0.31.3
 arrow==1.2.3
 babel==2.16.0
 binaryornot==0.4.4
@@ -12,8 +14,11 @@ cookiecutter==2.1.1
 cycler==0.12.1
 docutils==0.21.2
 fonttools==4.53.1
+gffpandas==1.2.0
+gffutils==0.13
 idna==3.4
 imagesize==1.4.1
+importlib_metadata==8.4.0
 Jinja2==3.1.2
 jinja2-time==0.2.0
 kiwisolver==1.4.5
@@ -27,6 +32,7 @@ pathspec==0.12.1
 pillow==10.4.0
 platformdirs==4.2.2
 pyBigWig==0.3.23
+pyfaidx==0.8.1.2
 Pygments==2.18.0
 pyparsing==3.1.4
 python-dateutil==2.8.2
@@ -35,6 +41,7 @@ pytz==2023.3
 PyYAML==6.0
 requests==2.32.3
 seaborn==0.13.2
+simplejson==3.19.3
 six==1.16.0
 snowballstemmer==2.2.0
 Sphinx==8.0.2
@@ -49,3 +56,4 @@ tomli==2.0.1
 typing_extensions==4.12.2
 tzdata==2023.3
 urllib3==2.2.2
+zipp==3.20.1
